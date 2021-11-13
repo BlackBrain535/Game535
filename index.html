@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=360, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style/style.css">
+    <title>Game535</title>
+</head>
+
+<body>
+    <div class="main">
+        <div class="main__body">
+            <div class="main__button" id="buttonStart" onclick="Start()">Начать</div>
+            <div class="main__top">
+                <div class="you">
+                    <div class="you__body">
+                        <div class="you__parameters">
+                            <div class="you__title">Ваши параметры</div>
+                            <div class="you__bodyHealth">
+                                <div class="you__nameHealth">хп</div>
+                                <div class="you__health">000/000</div>
+                            </div>
+
+                            <!-- <div class="you__mood">Настроение: 100/100</div>
+                            <div class="you__damage">Урон: 1</div>
+                            <div class="you__communication">Общение: 0</div> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="enemy">
+                    <div class="enemy__text">none</div>
+                    <div class="enemy__healthbar">000/000</div>
+                    <div class="enemy__body">
+                        <div class="enemy__type"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="console">
+                <div class="console__text" id="consoleText"></div>
+                <div class="console__buttons">
+
+                    <div 
+                    class="console__button" 
+                    id="consoleButton1" 
+                    onclick="checkClickButtonConsole(1)"
+                    >1: none</div>
+
+                    <div 
+                    class="console__button" 
+                    id="consoleButton2" onclick="checkClickButtonConsole(2)"
+                    >2: none</div>
+
+                    <div 
+                    class="console__button" 
+                    id="consoleButton3" 
+                    onclick="checkClickButtonConsole(3)"
+                    >3: none</div>
+
+
+                    <div 
+                    class="console__button" 
+                    id="consoleButton4" 
+                    onclick="checkClickButtonConsole(4)"
+                    >4: none</div>
+
+
+                </div>
+                
+                
+            </div>
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
